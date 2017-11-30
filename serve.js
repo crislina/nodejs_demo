@@ -55,6 +55,6 @@ app.post('/object',(req,res)=>{
     return res.json({ "key":"mykey", "value":value, "timestamp": time });
 })
 
-app.listen(3300,()=>{
+app.listen(3000,()=>{
     console.log("Started on http://localhost:3000");
 })
